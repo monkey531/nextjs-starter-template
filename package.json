@@ -1,11 +1,9 @@
 {
   "name": "nextjs-app",
 
-  "version": "0.0.5",
+  "version": "0.0.6",
+    "description": "Next.js app",
 
-  "bin": {
-    "nextjs-app": "./bin/cli.js"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +11,16 @@
     "lint": "next lint",
     "sitemap": "next-sitemap --config next-sitemap.config.ts"
   },
+  "keywords": [
+"nextjs",
+    "typescript",
+    "tailwindcss",
+    "eslint",
+    "prettier",
+    "next-sitemap",
+    "nextjs-cli",
+    "next-cli"
+  ],
   "dependencies": {
     "eslint-config-prettier": "^9.0.0",
     "less": "^4.2.0",
