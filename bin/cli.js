@@ -26,6 +26,7 @@ if (fs.existsSync(projectDir)) {
 }
 
 const gitCheckoutCommand = `git clone --depth=1 ${templateRepoURL} ${projectDir}`;
+
 const installDepsCommand = `cd ${projectDir} && npm install`;
 
 console.log(`Creating a new Next.js app in ${repoName}...`);
