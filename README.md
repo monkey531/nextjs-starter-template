@@ -1,6 +1,6 @@
 # Next.js Boilerplate with TypeScript, Tailwind CSS, and ESLint
 
-This is a custom [Next.js](https://nextjs.org/) project template created with [`nextjs-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a custom [Next.js](https://nextjs.org/) project template created with `nextjs-app`
 
 ## Getting Started
 
