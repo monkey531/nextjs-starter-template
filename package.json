@@ -1,7 +1,9 @@
 {
   "name": "nextjs-app",
   "version": "0.0.0",
-  "bin": "./bin/cli/js",
+  "bin": {
+    "nextjs-app": "./bin/cli.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
