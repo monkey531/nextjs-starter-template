@@ -1,8 +1,10 @@
 {
   "name": "nextjs-app",
-
-  "version": "0.0.6",
-    "description": "Next.js app",
+  "version": "0.0.7",
+  "bin": {
+    "nextjs-app": "./bin/cli.js"
+  },
+  "description": "Next.js app with TypeScript, Tailwind CSS, ESLint, Prettier, Next Sitemap, and more.",
 
   "scripts": {
     "dev": "next dev",
@@ -12,7 +14,9 @@
     "sitemap": "next-sitemap --config next-sitemap.config.ts"
   },
   "keywords": [
-"nextjs",
+
+    "nextjs",
+
     "typescript",
     "tailwindcss",
     "eslint",

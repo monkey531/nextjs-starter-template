@@ -37,12 +37,6 @@ const createNextjsApp = (projectName) => {
   console.log(`Installing dependencies for ${repoName}...`);
   runCommand(installDepsCommand);
 
-  // Remove the Git remote URL
-  runCommand(`cd "${repoName}" && git remote remove origin`);
-
-  // Clear Git history
-  runCommand(`cd "${repoName}" && rm -rf .git && git init && git add . && git commit -m "Initial commit"`);
-
   console.log('Congrats! Your new Next.js app is ready!');
   console.log(`cd "${repoName}" && npm run dev`);
 };
