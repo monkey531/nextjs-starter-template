@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const runCommand = command => {
   try {
-    execSync(`${command}`, { stdio: 'inherit' });
+    execSync(command, { stdio: 'inherit' });
   } catch (err) {
     console.error(`Failed to execute command: ${command}`, err);
     process.exit(1);
@@ -25,7 +25,8 @@ if (fs.existsSync(projectDir)) {
   process.exit(1);
 }
 
-const gitCheckoutCommand = `git clone --depth 1 ${templateRepoURL} ${projectDir}`;
+const gitCheckoutCommand = `git clone --depth=1 ${templateRepoURL} ${projectDir}`;
+
 const installDepsCommand = `cd ${projectDir} && npm install`;
 
 console.log(`Creating a new Next.js app in ${repoName}...`);
