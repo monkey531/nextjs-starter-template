@@ -1,7 +1,7 @@
 {
-  "name": "create-nextjs-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nextjs-app",
+  "version": "0.0.0",
+  "bin": "./bin/cli/js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
