@@ -1,10 +1,9 @@
 {
   "name": "nextjs-app",
-  "version": "0.0.8",
-  "bin": {
-    "nextjs-app": "./bin/cli.js"
-  },
-  "description": "Next.js app with TypeScript, Tailwind CSS, ESLint, Prettier, Next Sitemap, and more.",
+
+  "version": "0.0.0",
+     "private": true,
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",

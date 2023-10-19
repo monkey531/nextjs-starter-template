@@ -36,5 +36,4 @@ next-env.d.ts
 
 /bin
 
-/.npmignore
-/bin/
+
