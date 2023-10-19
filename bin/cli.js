@@ -20,6 +20,7 @@ const createNextjsApp = (projectName) => {
 
   const projectDir = path.resolve(process.cwd(), repoName);
 
+
   // Check if the directory already exists
   if (fs.existsSync(projectDir)) {
     console.error(`Error: Directory '${repoName}' already exists.`);
@@ -27,9 +28,8 @@ const createNextjsApp = (projectName) => {
     process.exit(1);
   }
 
-  const gitCheckoutCommand = `git clone --depth=1 ${templateRepoURL} "${repoName}"`;
+  const gitCheckoutCommand = `git clone --depth=1 ${templateRepoURL} "${repoName}"  && rm -rf "${repoName}"/.git`;
   const installDepsCommand = `cd "${repoName}" && npm install`;
-
 
   console.log(`Creating a new Next.js app in ${repoName}...`);
   runCommand(gitCheckoutCommand);

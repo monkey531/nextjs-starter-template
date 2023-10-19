@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/create-nextjs-app.iml" filepath="$PROJECT_DIR$/.idea/create-nextjs-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nextjs-app.iml" filepath="$PROJECT_DIR$/.idea/nextjs-app.iml" />
     </modules>
   </component>
 </project>
