@@ -1,4 +1,4 @@
-# Next.js Boilerplate with TypeScript, Tailwind CSS, and ESLint
+# Next.js Starter Boilerplate with TypeScript, Tailwind CSS, and ESLint
 
 This is a custom [Next.js](https://nextjs.org/) project template created with `nextjs-app`
 
