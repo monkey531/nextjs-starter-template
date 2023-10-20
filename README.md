@@ -8,7 +8,8 @@ First, open the terminal:
 ```bash
 npx nextjs-app projectname
 ```
-or 
+alternatively, 
+
 ```bash
 git clone https://github.com/muhammad-fiaz/create-nextjs-app.git
 ````
