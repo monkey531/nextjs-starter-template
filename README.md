@@ -13,7 +13,7 @@ alternatively,
 ```bash
 git clone https://github.com/muhammad-fiaz/create-nextjs-app.git
 ````
-then `cd projectname` and run npm `install` then:
+then `cd projectname` after that run npm `install` then just get started by:
 
 ```bash
 npm run dev
