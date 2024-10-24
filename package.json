@@ -33,7 +33,7 @@
     "eslint": "^8.51.0",
     "eslint-config-next": "14.2.15",
     "node-sass": "^9.0.0",
-    "postcss": "^8.4.45",
+    "postcss": "^8.4.47",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "sass": "^1.79.5",
     "sass-loader": "^16.0.2",
