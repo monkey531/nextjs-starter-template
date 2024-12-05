@@ -38,7 +38,7 @@
     "sass": "^1.81.0",
     "sass-loader": "^16.0.3",
     "tailwindcss": "^3.4.15",
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.2"
 
   },
   "main": "src/app/page.tsx",
