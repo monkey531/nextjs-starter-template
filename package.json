@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
-    "less": "^4.2.0",
+    "less": "^4.2.1",
     "next": "^15.0.3",
     "next-sitemap": "^4.2.3",
     "prettier": "^3.4.1",
