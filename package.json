@@ -19,14 +19,14 @@
     "next": "^15.0.3",
     "next-sitemap": "^4.2.3",
     "prettier": "^3.4.2",
-    "react": "^18.2.0",
+    "react": "^19.0.0",
     "react-dom": "^18.3.1",
     "scss": "^0.2.4"
   },
   "devDependencies": {
 
     "@types/node": "^22.10.5",
-    "@types/react": "^18.3.12",
+    "@types/react": "^19.0.10",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",
     "babel-loader": "^9.2.1",
